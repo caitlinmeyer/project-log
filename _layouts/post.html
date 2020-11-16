@@ -6,14 +6,15 @@ layout: default
   <header class="post-header">
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-m.%-d.%Y" }}</time>{% if page.author %} &middot; <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-	  	<a href="{{ page.next.url | prepend: site.baseurl | prepend: site.url }}">&#8592; {{page.previous.title}}</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://caitlinmeyer.github.io/project-log">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-		<a href="{{ page.previous.url | prepend: site.baseurl | prepend: site.url }}">{{page.next.title}} &#8594;</a>
+	  	
   </header>
   <div class="post-content" itemprop="articleBody">
     {{ content }}
     {% include post-share.html %}
   </div>	
-
+<BR><BR>
+	<p style="text-align:center"><a href="{{ page.next.url | prepend: site.baseurl | prepend: site.url }}">&#8592; {{page.next.title}}</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://caitlinmeyer.github.io/project-log">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="{{ page.previous.url | prepend: site.baseurl | prepend: site.url }}">{{page.previous.title}} &#8594;</a></p>
 </article>
 
   </div>
