@@ -1,6 +1,6 @@
 # Site settings
-title_left    : "Project Log"
-title_right   : "space" # default: ""
+title_left    : "Project"
+title_right   : "Log" # default: ""
 description   : "Documenting fun creative work."
 keywords      : ""
 url           : https://caitlinmeyer.github.io/project-log # site url
