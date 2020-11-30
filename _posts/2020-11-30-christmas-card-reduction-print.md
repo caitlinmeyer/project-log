@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Christmas card reduction blockprint
 updated: 2020-11-30
 Tags: printmaking
